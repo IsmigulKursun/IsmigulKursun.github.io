@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; /* Rounded corners for the container */
+}
+
+h1 {
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners for navbar links */
+    transition: background-color 0.3s, border-radius 0.3s; /* Smooth transition for hover effects */
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 15px; /* More rounded corners on hover */
+}
+
+.navbar .cta {
+    background-color: #007BFF;
+    border-radius: 5px; /* Rounded corners for CTA button */
+}
+
+.navbar .cta:hover {
+    background-color: #0056b3;
+    border-radius: 15px; /* More rounded corners on hover */
+}
+
+.testimonial, .cta-section {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s, border-radius 0.3s; /* Smooth transition for hover effects */
+}
+
+.button:hover {
+    background-color: #0056b3;
+    border-radius: 15px; /* More rounded corners on hover */
+}
